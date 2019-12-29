@@ -3,7 +3,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-    my_dict = {'insert_me':"Now I am !"}
+    my_dict = {'insert_me':"Something else !"}
     return render(request, 'first_app/index.html',context=my_dict)
 
 def timmy(request):
